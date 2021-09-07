@@ -16,3 +16,8 @@ order_service:
   url: http://ORDER-SERVICE/%s/orders
   exception:
     orders-is-empty: There is no items
+    
+cart_service:
+  url: http://CART-SERVICE/carts/%s
+  exception:
+    carts-is-empty: There is no items
