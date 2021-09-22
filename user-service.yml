@@ -5,12 +5,12 @@
 #    username: sa
 #    password: '{cipher}AQAAybFzZhPQvJrLCweU4sY7Bbx6ExlOqJJooUAxyM2rBTInRDu9h+gXegQQyer57p1xrYaCG72Vq5PQMNUDO3tGBasaOybBBWiHSJrEUdNuGGYO3tJJs6kd2XF/AduYN2nmKtli/oVABgNVUmQutX6AzWkvJAFzbo4H9NGwq1Gp+CLQiYudee2vWlGBO9OiB63QyaxDbr+ooavbNFoHXMvE73Qezp+KPjyrnSC4dbvQa+FYIX73v37+mhxpJe1ggcIOLhJbRFgpkUAoI9jKCXArfSItaEX72TS9yv/DfCVuC2EyUXDUCBLvpLOdkd9tMxoE6Y2PKQVfRTSQqbJ/5bnwhbF0bN7d3hvCPajPSuUdJ7aUe8qefX8wq2uKIZW79vM='
 
-spring:
-  datasource:
-    url: jdbc:mariadb://localhost:23306/bookdb
-    driver-class-name: org.mariadb.jdbc.Driver
-    username: root
-    password: test1234
+# spring:
+#   datasource:
+#     url: jdbc:mariadb://localhost:23306/bookdb
+#     driver-class-name: org.mariadb.jdbc.Driver
+#     username: root
+#     password: test1234
     
 order_service:
   url: http://ORDER-SERVICE/%s/orders
